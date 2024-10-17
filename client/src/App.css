@@ -10,3 +10,20 @@
     overflow-x: hidden;
     padding-bottom: 50px;
 }
+
+.cars-list main {
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+}
+
+#car-name-input {
+    width: 100px;
+    height: 40px;
+}
+
+.car-details {
+    background-color: rgba(0, 0, 0, 0.507);
+    padding: 2.5%;
+    margin-top: 2.5%;
+}

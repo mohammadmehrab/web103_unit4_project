@@ -8,6 +8,7 @@ import CarDetails from './pages/CarDetails'
 import './App.css'
 
 const App = () => {
+
   let element = useRoutes([
     {
       path: '/',
@@ -15,15 +16,15 @@ const App = () => {
     },
     {
       path:'/customcars',
-      element: <ViewCars title='BOLT BUCKET | Custom Cars' />
+      element: <ViewCars title='BOLT BUCKET | Custom Cars'/>
     },
     {
       path: '/customcars/:id',
-      element: <CarDetails title='BOLT BUCKET | View' />
+      element: <CarDetails title='BOLT BUCKET | View'/>
     },
     {
       path: '/edit/:id',
-      element: <EditCar title='BOLT BUCKET | Edit' />
+      element: <EditCar title='BOLT BUCKET | Edit'/>
     }
   ])
 
